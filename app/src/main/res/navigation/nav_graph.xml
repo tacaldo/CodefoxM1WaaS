@@ -8,5 +8,13 @@
         android:id="@+id/startNavFragment"
         android:name="com.example.codefoxm1waas.StartNavFragment"
         android:label="fragment_start_nav"
-        tools:layout="@layout/fragment_start_nav" />
+        tools:layout="@layout/fragment_start_nav" >
+        <action
+            android:id="@+id/action_startNavFragment_to_findJobsActivity"
+            app:destination="@id/findJobsActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/findJobsActivity"
+        android:name="com.example.codefoxm1waas.FindJobsActivity"
+        android:label="FindJobsActivity" />
 </navigation>
