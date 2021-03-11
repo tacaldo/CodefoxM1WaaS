@@ -30,11 +30,11 @@
 
         <Button
             android:id="@+id/buttonMapWorkerLocations"
-            android:layout_width="194dp"
-            android:layout_height="48dp"
+            android:layout_width="0dp"
+            android:layout_height="129dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="269dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
