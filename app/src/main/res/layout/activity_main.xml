@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="testMap"
     android:visibility="visible"
     tools:context=".MainActivity">
 
@@ -22,59 +21,59 @@
         app:navGraph="@navigation/nav_graph" />
 
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="363dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:onClick="findJobs"
-        android:text="@string/button_postJobs"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFindJobs" />
+<!--    <Button-->
+<!--        android:id="@+id/button6"-->
+<!--        android:layout_width="363dp"-->
+<!--        android:layout_height="170dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        android:onClick="findJobs"-->
+<!--        android:text="@string/button_postJobs"-->
+<!--        android:textColor="@color/design_default_color_on_secondary"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/buttonFindJobs" />-->
 
-    <Button
-        android:id="@+id/buttonFindJobs"
-        android:layout_width="363dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:foreground="@drawable/ic_baseline_search_16"
-        android:onClick="findJobs"
-        android:orientation="horizontal"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<!--    <Button-->
+<!--        android:id="@+id/buttonFindJobs"-->
+<!--        android:layout_width="363dp"-->
+<!--        android:layout_height="170dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        android:foreground="@drawable/ic_baseline_search_16"-->
+<!--        android:onClick="findJobs"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="363dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:onClick="testMap"
-        android:text="Map Test"
-        android:textColor="#9C27B0"
-        android:textStyle="bold"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="363dp"-->
+<!--        android:layout_height="170dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        android:onClick="testMap"-->
+<!--        android:text="Map Test"-->
+<!--        android:textColor="#9C27B0"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button6" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

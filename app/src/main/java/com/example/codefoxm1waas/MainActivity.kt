@@ -11,20 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun findJobs(view: View) {
-        // Do something in response to button
-        val intent = Intent(this, FindJobsActivity::class.java)
-        startActivity(intent)
-    }
-
-
-
-
-    fun testMap(view: View) {
-        // Do something in response to button
-        val intent = Intent(this, MapsActivity::class.java)
-        startActivity(intent)
-    }
 
 
 }
