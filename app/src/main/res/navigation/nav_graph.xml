@@ -12,9 +12,17 @@
         <action
             android:id="@+id/action_startNavFragment_to_findJobsActivity"
             app:destination="@id/findJobsActivity" />
+        <action
+            android:id="@+id/action_startNavFragment_to_mapsFragmentWorkerLocations"
+            app:destination="@id/mapsFragmentWorkerLocations" />
     </fragment>
     <activity
         android:id="@+id/findJobsActivity"
         android:name="com.example.codefoxm1waas.FindJobsActivity"
         android:label="FindJobsActivity" />
+    <fragment
+        android:id="@+id/mapsFragmentWorkerLocations"
+        android:name="com.example.codefoxm1waas.MapsFragmentWorkerLocations"
+        android:label="fragment_maps_worker_locations"
+        tools:layout="@layout/fragment_maps_worker_locations" />
 </navigation>

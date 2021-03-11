@@ -54,6 +54,10 @@ class StartNavFragment : Fragment() {
             Navigation.createNavigateOnClickListener(R.id.action_startNavFragment_to_findJobsActivity)
 
         )
+        view.findViewById<Button>(R.id.buttonMapWorkerLocations).setOnClickListener(
+            Navigation.createNavigateOnClickListener(R.id.action_startNavFragment_to_mapsFragmentWorkerLocations)
+
+        )
 
         //return inflater.inflate(R.layout.fragment_start_nav, container, false)
 
