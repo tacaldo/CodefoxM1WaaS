@@ -32,14 +32,6 @@ class StartNavFragment : Fragment() {
         }
     }
 
-    fun findJobsFrag() {
-        // Do something in response to button
-        Log.d("TAG", "Testing reached finfJobs in frag...")
-
-
-//        val intent = Intent(this, FindJobsActivity::class.java)
-//        startActivity(intent)
-    }
 
 
     override fun onCreateView(
