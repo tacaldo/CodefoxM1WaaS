@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.codefoxm1waas">
+    package="com.codefoxflashworx.codefoxm1waas">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -30,15 +30,15 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".FindJobsActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.codefoxflashworx.codefoxm1waas.FindJobsActivity"
+            android:parentActivityName="com.codefoxflashworx.codefoxm1waas.MainActivity">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.codefoxflashworx.codefoxm1waas.MainActivity" />
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.codefoxflashworx.codefoxm1waas.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

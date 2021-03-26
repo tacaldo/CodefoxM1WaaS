@@ -1,4 +1,4 @@
-package com.example.codefoxm1waas
+package com.codefoxflashworx.codefoxm1waas
 
 object DataManager {
 

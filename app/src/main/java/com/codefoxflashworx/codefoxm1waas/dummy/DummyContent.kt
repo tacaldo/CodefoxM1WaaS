@@ -1,4 +1,4 @@
-package com.example.codefoxm1waas.dummy
+package com.codefoxflashworx.codefoxm1waas.dummy
 
 import java.util.ArrayList
 import java.util.HashMap

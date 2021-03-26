@@ -6,7 +6,7 @@
     app:startDestination="@id/startNavFragment">
     <fragment
         android:id="@+id/startNavFragment"
-        android:name="com.example.codefoxm1waas.StartNavFragment"
+        android:name="com.codefoxflashworx.codefoxm1waas.StartNavFragment"
         android:label="fragment_start_nav"
         tools:layout="@layout/fragment_start_nav" >
         <action
@@ -18,11 +18,11 @@
     </fragment>
     <activity
         android:id="@+id/findJobsActivity"
-        android:name="com.example.codefoxm1waas.FindJobsActivity"
+        android:name="com.codefoxflashworx.codefoxm1waas.FindJobsActivity"
         android:label="FindJobsActivity" />
     <fragment
         android:id="@+id/mapsFragmentWorkerLocations"
-        android:name="com.example.codefoxm1waas.MapsFragmentWorkerLocations"
+        android:name="com.codefoxflashworx.codefoxm1waas.MapsFragmentWorkerLocations"
         android:label="fragment_maps_worker_locations"
         tools:layout="@layout/fragment_maps_worker_locations" />
 </navigation>

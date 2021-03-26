@@ -1,13 +1,11 @@
-package com.example.codefoxm1waas
+package com.codefoxflashworx.codefoxm1waas
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import android.util.Log
-import android.widget.CheckBox
 
 class FindJobsActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView

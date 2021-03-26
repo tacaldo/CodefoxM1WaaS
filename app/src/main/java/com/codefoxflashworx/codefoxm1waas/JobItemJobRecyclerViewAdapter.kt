@@ -1,4 +1,4 @@
-package com.example.codefoxm1waas
+package com.codefoxflashworx.codefoxm1waas
 
 import android.util.Log
 import android.util.SparseBooleanArray
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.CheckBox
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.codefoxm1waas.dummy.DummyContent.DummyItem
+import com.codefoxflashworx.codefoxm1waas.dummy.DummyContent.DummyItem
 
 /**
  * [RecyclerView.Adapter] that can display a [DummyItem].
