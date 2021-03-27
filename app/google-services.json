@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755410382254",
+    "project_id": "codefoxmobilewaas",
+    "storage_bucket": "codefoxmobilewaas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755410382254:android:e2984ac48aaee0fc172c3f",
+        "android_client_info": {
+          "package_name": "com.codefoxflashworx.codefoxm1waas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755410382254-lj5p7gmuf5cr3n6uij6o3mudr1ar8dne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwK9mtTV6U5XznP-OjK5OcoJFfkbo3AQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755410382254-lj5p7gmuf5cr3n6uij6o3mudr1ar8dne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
