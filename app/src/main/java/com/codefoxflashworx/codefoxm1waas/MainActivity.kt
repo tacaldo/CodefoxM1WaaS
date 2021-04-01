@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.google.android.gms.common.SignInButton
 
 
 class MainActivity : AppCompatActivity() {
@@ -28,6 +29,12 @@ class MainActivity : AppCompatActivity() {
 // the GoogleSignInAccount will be non-null.
         val account = GoogleSignIn.getLastSignedInAccount(this)
 //        updateUI(account)
+
+        var signInButton = findViewById<SignInButton>(R.id.sign_in_button)
+        //signInButton.setSize(SignInButton.SIZE_WIDE)
+        signInButton.setSize(SignInButton.SIZE_WIDE)
+
+
 
 
     }
