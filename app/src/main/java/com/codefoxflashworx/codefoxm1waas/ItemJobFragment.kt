@@ -48,7 +48,7 @@ class ItemJobFragment : Fragment() {
         // TODO: Customize parameter argument names
         const val ARG_COLUMN_COUNT = "column-count"
 
-        // TODO: Customize parameter initialization
+        // TODO: Customize parameter initialization...
         @JvmStatic
         fun newInstance(columnCount: Int) =
             ItemJobFragment().apply {
