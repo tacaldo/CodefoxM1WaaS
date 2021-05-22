@@ -51,7 +51,7 @@ class FindJobsActivity : AppCompatActivity() {
         //val checkBox: CheckBox = recyclerView.findViewById(R.id.checkBoxJob)
 
 
-        println("First initializer block that prints...")
+        println("First initializer block that prints....")
 
     }
 
