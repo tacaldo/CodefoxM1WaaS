@@ -12,7 +12,7 @@ import com.codefoxflashworx.codefoxm1waas.dummy.DummyContent.DummyItem
 
 /**
  * [RecyclerView.Adapter] that can display a [DummyItem].
- * TODO: Replace the implementation with code for your data type...
+ * TODO: Replace the implementation with code for your data type.
  */
 class JobItemJobRecyclerViewAdapter(
     private val values: List<Job>
